@@ -25,17 +25,23 @@
 
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#home" class="nav__link active-link">Home.</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">Sobre Mi</a>
+                        <a href="#about" class="nav__link">Sobre Mi.</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Servicios.</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Proyectos.</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projectos</a>
+                        <a href="#contact" class="nav__link">Contactame.</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contactame</a>
-                    </li>
+                    
                 </ul>
 
                 <!-- boton de cerrar -->
@@ -45,6 +51,10 @@
             </div>
             
             <div class="nav__buttons">
+                <!-- Theme button-->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!--Toggle button-->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-4-line"></i>
                 </div>
@@ -86,7 +96,7 @@
 
                 <div class="home__info">
                     <p class="home__description">
-                        <b>Frontend Developer</b> Busco realizar tus sueños a  < codigo/> ,llevo tus proyectos, emprendimientos e ideales a la web apasionado por crecer  y aprender en este camino busco {Maximizar experiencia cliente usuario} ;
+                        <b>Frontend Developer</b> Busco realizar tus sueños a  < codigo/> ,llevo tus proyectos, emprendimientos e ideales a la web apasionado por crecer  y aprender en este camino busco {Maximizar experiencia cliente usuario};
                     </p>
 
                     <a href="#about" class="home_scroll"></a>
@@ -99,10 +109,320 @@
                 </div>
             </div>
         </section>
-    </main>
+
+                    <!--about-->
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    <span>Sobre Mi.</span>
+                </h2>
+
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="assets/img/profilephoto.webp" alt="image" class="about__img">
+
+                        <div class="about__shadow"></div>
+
+                        <div class="geometric-box"></div>
+                        <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+                
+                <div class="about__info">
+                    <p class="about__description">
+                        Apasionado por crear <b>Paginas Webs</b> usando las nuevas tecnologias,
+                        soy estudiado de la tan famosa plataforma<a href="https://platzi.com"> <b> PLATZI</b></a> tengo mas de 14 Cursos Completados en ambito a la programacion, estare encantado de implementarlos y crecer con los proyectos de mi proximo trabajo o cliente.
+                    </p>
+
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <b>Mis Habilidades Son:</b> HTML, CSS, JavaScript, 
+                            y tengo las Basese de React & TypeScript.
+                        </li>
+                    </ul>
+
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"></i> Contactame
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/osvaldo-de-jesus-pacheco-sanabria-9bab0b25b/" target="_blank" class="button__ghost">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+                <!--SERVICIOS-->
+
+        <section class="services section " id="services">
+            <h2 class="section__title-2">
+                <span>Servicios.</span>
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <div class="services__border"></div>
+
+                    <div class="services__content">
+                        <div class="services__icon">
+                            <div class="services__box"></div>
+                            <i class="ri-code-box-line"></i>
+                        </div>
+
+                        <h2 class="services__title">Frontend Developer</h2>
+
+                        <p class="services__description">
+                            Diseño, desarrollo y mantengo los elementos con los que interactúan los usuarios finales en sitios web y aplicaciones.
+                        </p>
+                    </div>
+                </article>
+
+                
+            </div>
+        </section>
+
+        <!--PROJECTS-->
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Proyectos.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-1.webp" alt="image" class="projects__img">
+
+                        <a href="https://tesla-landing-ikxjqjxh0-reedfaze.vercel.app/" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Landing Page</h3>
+                        <h2 class="project__title">TESLA landing Page</h2>
+                        
+                        <p class="projects__description">
+                            Trabaje atravez de frameworks Todo en uno y de estilizado de css como ASTRO.BUILD tailwindCSS para recrear la landing page de TESLA</p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/OsvaldoDJesus/tesla_landing" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ir
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-2.webp" alt="image" class="projects__img">
+
+                        <a href="https://mokepon-kk8p7dt9w-reedfaze.vercel.app/" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">VideoJuego</h3>
+                        <h2 class="project__title">App Mokepon</h2>
+                        
+                        <p class="projects__description">
+                            Video Juego Mokepon Basado en Pokemon, en donde podras elegir Criaturas fantasticas para luchar; 
+                            Construido usando JS vanilla y node.</p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/OsvaldoDJesus/MOKEPON/tree/main" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ir
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-3.webp" alt="image" class="projects__img">
+
+                        <a href="https://curso-frontend-developer-javascript-practico-eight.vercel.app/" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Landing Page Tienda</h3>
+                        <h2 class="project__title">YardSale</h2>
+                        
+                        <p class="projects__description">
+                            YardSale es un proyecto Basado en un e-commerce convencional, solo es una maquetacion con JavaScript Vanilla y un poco de JavaScript</p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/OsvaldoDJesus/curso-frontend-developer-javascript-practico" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ir
+                        </a>
+
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-4.webp" alt="image" class="projects__img">
+
+                        <a href="https://calculadora-de-interes-compuesto-iota.vercel.app/" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">App</h3>
+                        <h2 class="project__title">Calculadora de interes compuesto</h2>
+                        
+                        <p class="projects__description">
+                            trabajo de demostracion del uso de Buenas funciones de JavaScript, basadas en las matematicas y estadisticas<Trab/p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="https://github.com/OsvaldoDJesus/CalculadoraDeInteresCompuesto" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i> Ir
+                        </a>
+
+                    </div>
+                </article>
+
+            </div>
 
 
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contactame.</span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        Leeré todos los correos electrónicos. envíame cualquier mensaje que quieras y me comunicaré contigo.
+                    </p>
+                    <p class="contact__description-2">
+                        Necesito tu <b>Nombre</b> y <b>dirección de correo electrónico</b>, pero no recibirás nada más que tu respuesta.
+                    </p>
+
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Envíame un mensaje.
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="Primer Nombre">
+                                <label for="name" class="contact__label">Primer Nombre</label>
+                            </div>
+
+                            <div class="contact__box">
+                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Dirección de correo">
+                                <label for="email" class="contact__label">Dirección de correo</label>
+                            </div>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Asunto">
+                            <label for="subject" class="contact__label">Asunto</label>
+                        </div>
+
+                        <div class="contact__box contact__area">
+                            <textarea name="user_message" class="contact__input" id="message" required placeholder="Mensaje"></textarea>
+                            <label for="messaje" class="contact__label"></label>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button button">
+                            <i class="ri-send-plane-line"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+
+            <div class="contact__social">
+                    <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                
+                <div class="contact__social-data">
+                    <div class="">
+                        <p class="contact__social-description-1">
+                            No envíe correos electrónicos
+                        </p>
+
+                        <p class="contact__social-description-2">
+                            Escríbeme a mis redes sociales
+                        </p>
+                    </div>
+
+                    <div class="contact__social-links">
+                        <a href="https://wa.link/9gg93r" target="_blank" class="contact__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/osvaldo-de-jesus-pacheco-sanabria-9bab0b25b/" target="_blank" class="contact__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/osvaldojesus.d/" target="_blank" class="contact__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ </main>
+
+<!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#services" class="footer__link">Servicios</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">Proyectos</a>
+                </li>
+
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Rights Reserved By <a href="">Bedimcode.</a>
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+      
+      <!--=============== EMAIL JS ===============-->
+
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+      <script src="./assets/js/main.js"></script>
 </body>
 
-<script src="./assets/js/main.js"></script>
 </html>
