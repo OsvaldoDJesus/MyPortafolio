@@ -649,6 +649,7 @@ body.dark-theme{
     position: relative;
     color: var(--title-color);
     margin-bottom: 1.5rem;
+    margin-right: 3.65rem;
 }
 
 .about__description::after{
@@ -665,6 +666,7 @@ body.dark-theme{
     list-style: square;
     color: var(--title-color);
     margin-bottom: 3rem;
+    margin-right: 4rem;
 }
 
 .about__buttons{
